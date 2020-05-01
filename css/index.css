@@ -117,13 +117,13 @@ hr {
 }
 
 #doblabel {
-  margin-right: 100%;
+  margin-right: auto;
   color: rgb(207, 207, 207);
   font-family: 'Aldrich', sans-serif;
 }
 
 #dob {
-  width: 104%;
+  width: 101%;
   display: flex;
   justify-content: space-between;
 }
