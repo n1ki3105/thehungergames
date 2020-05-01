@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png" sizes="32x32"> 
+</head>
+<body>
+    <div id="logoContainer">
+        <img src="./images/logo.png" alt="logo" id="logo">
+    </div>
+    <hr>
+    <div id="container">
+        <a id="fb" onclick="return fbvalidator()">Sign up with Facebook</a>
+        <input type="checkbox" id="iknow_1">
+        <label for="iknow_1" id="ilknow_1">I know that my life is at stake and I might lose it in this challenge.</label>
+        <label for="email" class="validation" id="fbvalidation"></label>
+        <strong class="separator">or</strong>
+        <h2 id="signE">Sign up with your email address</h2>
+        <div id="formcontainer">
+            <form onsubmit="return validator()" action="https://youtu.be/dQw4w9WgXcQ">
+                <input type="email" name="email" id="email" class="info" placeholder="Email" size="55" required>
+                <label for="email" class="validation" id="emailvalidation"></label>
+                <input type="email" name="confirm" id="confirm" class="info" placeholder="Confirm email" size="55" required>
+                <label for="confirm" class="validation" id="confirmvalidation"></label>
+                <input type="password" name="password" id="password" class="info" placeholder="Password" size="55" required>
+                <label for="password" class="validation" id="passwordvalidation"></label>
+                <input type="text" name="nickname" id="nickname" class="info" placeholder="Nickname" size="55" required>
+                <label for="day" id="doblabel">Date of birth</label>
+                <div id="dob">
+                    <input type="text" name="day" id="day" class="info" placeholder="Day" size="10" required>
+                    <select name="month" id="month" class="info" required>
+                        <option value="" disabled selected hidden>Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <input type="text" name="year" id="year" class="info" placeholder="Year" size="15" required>
+                </div>
+                <label for="day" class="validation" id="dayvalidation"></label>
+                <label for="year" class="validation" id="yearvalidation"></label>
+                <br>
+                <input type="radio" name="sex" id="male" required>
+                <label for="male" class="sexlabel">Male</label>
+                <input type="radio" name="sex" id="female" required>
+                <label for="female" class="sexlabel">Female</label>
+                <br><br>
+                <input type="checkbox" id="iknow_2" required>
+                <label for="iknow_2" id="ilknow_2">I know that my life is at stake and I might lose it in this challenge.</label>
+                <br><br>
+                <button id="signup">Sign up</button>
+            </form>
+        </div>
+    </div>
+    <script src="./javaScript/index.js"></script>
+</body>
+</html>
