@@ -13,11 +13,13 @@
     </div>
     <hr>
     <div id="container">
-        <a id="fb" onclick="return fbvalidator()">Sign up with Facebook</a>
-        <input type="checkbox" id="iknow_1">
-        <label for="iknow_1" id="ilknow_1">I know that my life is at stake and I might lose it in this challenge.</label>
-        <label for="email" class="validation" id="fbvalidation"></label>
-        <strong class="separator">or</strong>
+        <div id="fbcontainer">
+            <a id="fb" onclick="return fbvalidator()">Sign up with Facebook</a>
+            <input type="checkbox" id="iknow_1">
+            <label for="iknow_1" id="ilknow_1">I know that my life is at stake and I might lose it in this challenge.</label>
+            <label for="email" class="validation" id="fbvalidation"></label>
+            <strong class="separator">or</strong>
+        </div>
         <h2 id="signE">Sign up with your email address</h2>
         <div id="formcontainer">
             <form onsubmit="return validator()" action="https://youtu.be/dQw4w9WgXcQ">

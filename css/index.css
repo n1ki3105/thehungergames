@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
-/* Media Queries: Tablet Landscape */
 
 body {
   background-color: #09080c;
@@ -27,17 +26,21 @@ hr {
   margin-right: 2%;
 }
 
+#fbcontainer {
+  display: inline-block;
+}
+
 #fb {
   font-family: 'Aldrich', sans-serif;
   font-size: small;
-  max-width: 70%;
+  width: 85%;
   margin-bottom: 3%;
   margin-left: auto;
   margin-right: auto;
   color: #FFF;
-  background-color: #3B5998;
+  background-color: rgb(48, 74, 131);
   border-radius: 600px;
-  padding: 3.5%;
+  padding: 4%;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: block;
@@ -49,6 +52,11 @@ hr {
   cursor: pointer;
 }
 
+#fb:hover {
+  background-color: #3B5998;
+  ;
+}
+
 #ilknow_1 {
   font-family: 'Aldrich', sans-serif;
   font-size: x-small;
@@ -56,8 +64,9 @@ hr {
 }
 
 .separator {
+  margin-left: -12%;
   margin-bottom: 0;
-  width: 103.5%;
+  width: 128%;
   font-weight: 500;
   color: rgb(219, 216, 211);
   line-height: 1.5;
@@ -157,6 +166,10 @@ hr {
   text-decoration: none;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+#signup:hover {
+  background-color: rgb(182, 99, 5);
 }
 
 .validation {
