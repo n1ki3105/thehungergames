@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-color: #09080c;
+}
+
+hr {
+  border-top: 1px;
+  color: rgb(158, 31, 31);
+}
+
+#container {
+  width: 40vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#logoContainer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 20%;
+}
+
+#fbcontainer {
+  display: inline-block;
+}
+
+#fb {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1vw;
+  width: 21vw;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+  background-color: rgb(48, 74, 131);
+  border-radius: 600px;
+  padding: 4%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid transparent;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#fb:hover {
+  background-color: #3B5998;
+  ;
+}
+
+#ilknow_1 {
+  font-family: 'Aldrich', sans-serif;
+  font-size: .7vw;
+  color: #b1b1b1;
+}
+
+.separator {
+  margin-left: -12%;
+  margin-bottom: 0;
+  width: 128%;
+  font-weight: 500;
+  color: rgb(219, 216, 211);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+#or {
+  font-size: 1.2vw;
+}
+
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgb(90, 90, 90);
+}
+
+.separator::before {
+  margin-right: 5px;
+}
+
+.separator::after {
+  margin-left: 5px;
+}
+
+#registerE {
+  color: rgb(219, 216, 211);
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 4%;
+  text-align: center;
+}
+
+#formcontainer {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.maininfo{
+  width: 30vw;
+}
+
+#day{
+  width: 6vw;
+}
+
+#year{
+  width: 8vw;
+}
+
+.info {
+  background-color: #222222;
+  border: 1px solid #444444;
+  border-radius: 2px;
+  margin-bottom: 2.6%;
+  color: rgb(221, 219, 214);
+  height: 3.01vw;
+  padding: 0 2%;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.1vw;
+}
+
+#doblabel {
+  color: rgb(207, 207, 207);
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.05vw;
+}
+
+#dob {
+  width: 31.4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#month {
+  color: rgb(207, 207, 207);
+  width: 12vw;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.sexlabel {
+  color: rgb(207, 207, 207);
+  margin-right: 4%;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1vw;
+}
+
+#ilknow_2 {
+  font-family: 'Aldrich', sans-serif;
+  font-size: .9vw;
+  color: #b1b1b1;
+}
+
+#register {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1vw;
+  width: 22vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+  background-color: rgb(163, 87, 0);
+  border-radius: 600px;
+  padding: 3.5%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid transparent;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#register:hover {
+  background-color: rgb(182, 99, 5);
+}
+
+.validation {
+  display: block;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1vw;
+  color: red;
+}

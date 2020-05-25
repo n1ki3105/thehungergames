@@ -6,7 +6,7 @@ var year = document.getElementById("year");
 
 function fbvalidator() {
     if (document.getElementById("iknow_1").checked === false) {
-        document.getElementById("fbvalidation").innerHTML = "Please accept this to continue.";
+        document.getElementById("fbvalidation").innerHTML = "Please accept this to continue. <br><br>";
         document.getElementById("fb").removeAttribute("href");
     } else {
         document.getElementById("fbvalidation").innerHTML = "";
@@ -35,7 +35,7 @@ function emailCheck(email) {
         document.getElementById("emailvalidation").innerHTML = "";
         return true;
     } else {
-        document.getElementById("emailvalidation").innerHTML = "The email address you supplied is invalid.";
+        document.getElementById("emailvalidation").innerHTML = "The email address you supplied is invalid. <br><br>";
     }
 }
 
@@ -44,7 +44,7 @@ function confirmCheck() {
         document.getElementById("confirmvalidation").innerHTML = "";
         return true;
     } else {
-        document.getElementById("confirmvalidation").innerHTML = "Email address doesn't match.";
+        document.getElementById("confirmvalidation").innerHTML = "Email address doesn't match. <br><br>";
     }
 }
 
@@ -54,7 +54,7 @@ function passwordCheck(password) {
         document.getElementById("passwordvalidation").innerHTML = "";
         return true;
     } else {
-        document.getElementById("passwordvalidation").innerHTML = "Your password must be at least 8 characters long, contain at least one number and have a mixture of uppercase and lowercase letters.";
+        document.getElementById("passwordvalidation").innerHTML = "Your password must be at least 8 characters long, <br>contain at least one number and have a mixture of uppercase <br>and lowercase letters. <br><br>";
     }
 }
 
@@ -65,10 +65,10 @@ function dayCheck(day) {
             document.getElementById("dayvalidation").innerHTML = "";
             return true;
         } else {
-            document.getElementById("dayvalidation").innerHTML = "Please enter a valid day of the month.";
+            document.getElementById("dayvalidation").innerHTML = "Please enter a valid day of the month. <br><br>";
         }
     } else {
-        document.getElementById("dayvalidation").innerHTML = "Please enter a valid day of the month.";
+        document.getElementById("dayvalidation").innerHTML = "Please enter a valid day of the month. <br><br>";
     }
 }
 
@@ -79,9 +79,9 @@ function yearCheck(year) {
             document.getElementById("yearvalidation").innerHTML = "";
             return true;
         } else {
-            document.getElementById("yearvalidation").innerHTML = "Please enter a valid year.";
+            document.getElementById("yearvalidation").innerHTML = "Please enter a valid year. <br><br>";
         }
     } else {
-        document.getElementById("yearvalidation").innerHTML = "Please enter a valid year.";
+        document.getElementById("yearvalidation").innerHTML = "Please enter a valid year. <br><br>";
     }
 }

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+/*font-family: 'Aldrich', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+/*font-family: 'Fira Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/*font-family: 'Audiowide', cursive;*/
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #09080c;
+}
+
+hr {
+    border-top: 1px;
+    color: rgb(158, 31, 31);
+}
+
+#navigation {
+    font-family: 'Aldrich', sans-serif;
+    width: 95%;
+    padding-left: 5%;
+    display: flex;
+}
+
+#logo {
+    margin-left: 90%;
+    width: 15vw;
+}
+
+#logo:hover {
+    width: 15.05vw;
+}
+
+#nav {
+    margin-left: 15%;
+    width: 100%;
+    font-size: 2vw;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav ul li {
+    display: inline-flex;
+    margin-top: .7%;
+    margin-left: 5%;
+}
+
+#nav ul li a {
+    color: rgb(255, 196, 0);
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    font-size: 2.01vw;
+    text-decoration: underline;
+    color: rgb(255, 136, 0);
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#reaping {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    max-width: 50%;
+}
+
+#reaping h1 {
+    margin-left: 10%;
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 60, 0);
+}
+
+#reaping p {
+    margin-top: -1%;
+    margin-left: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8vw;
+    color: rgb(255, 123, 0);
+    max-width: 80%;
+}
+
+#chariot_rides {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    max-width: 50%;
+}
+
+#chariot_rides h1 {
+    margin-left: 10%;
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 60, 0);
+}
+
+#chariot_rides p {
+    margin-top: -1%;
+    margin-left: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8vw;
+    color: rgb(255, 123, 0);
+    max-width: 80%;
+}
+
+#training_center {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    max-width: 50%;
+}
+
+#training_center h1 {
+    margin-left: 10%;
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 60, 0);
+}
+
+#training_center p {
+    margin-top: -1%;
+    margin-left: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8vw;
+    color: rgb(255, 123, 0);
+    max-width: 80%;
+}
+
+#interviews {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    max-width: 50%;
+}
+
+#interviews h1 {
+    margin-left: 10%;
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 60, 0);
+}
+
+#interviews p {
+    margin-top: -1%;
+    margin-left: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8vw;
+    color: rgb(255, 123, 0);
+    max-width: 80%;
+}
+
+#arena {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    max-width: 50%;
+}
+
+#arena h1 {
+    margin-left: 10%;
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 60, 0);
+}
+
+#arena p {
+    margin-top: -1%;
+    margin-left: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8vw;
+    color: rgb(255, 123, 0);
+    max-width: 80%;
+}
+
+#victory_tour {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    max-width: 50%;
+}
+
+#victory_tour h1 {
+    margin-left: 10%;
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 60, 0);
+}
+
+#victory_tour p {
+    margin-top: -1%;
+    margin-left: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.8vw;
+    color: rgb(255, 123, 0);
+    max-width: 80%;
+}

@@ -5,10 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 /*font-family: 'Audiowide', cursive;*/
 body {
-    overflow: hidden;
     background-image: url("../images/background.jpg");
     background-size: cover;
-    background-position: 100%;
     background-repeat: no-repeat;
     background-color: #09080c;
 }
@@ -61,39 +59,118 @@ hr {
     color: rgb(255, 136, 0);
 }
 
-#the_hunger_games {
-    display: flex;
-    flex-direction: column;
+#districts {
     font-size: 1.5vw;
 }
 
-#the_hunger_games h1 {
-    align-self: center;
+#districts h1 {
+    margin-left: 45%;
     font-family: 'Audiowide', cursive;
     color: rgb(255, 60, 0);
 }
 
-#the_hunger_games p {
+#districts p {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.8vw;
     color: rgb(255, 123, 0);
-    max-width: 40%;
+    max-width: 100%;
 }
 
-#p1 {
-    position: relative;
-    left: 9vw;
+#district_1_img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
 }
 
 #p2 {
-    position: relative;
-    top: -16.5vw;
-    left: 55vw;
+    margin-right: 3%;
 }
 
-#home_img {
-    position: relative;
-    top: -18vw;
-    left: 41vw;
-    width: 20vw;
+#district_2_img {
+    margin-right: 5%;
+    width: 10%;
+}
+
+#district_3_img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
+}
+
+#p4 {
+    margin-right: 3%;
+}
+
+#district_4_img {
+    margin-right: 5%;
+    width: 10%;
+}
+
+#district_5_img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
+}
+
+#p6 {
+    margin-right: 3%;
+}
+
+#district_6_img {
+    margin-right: 5%;
+    width: 10%;
+}
+
+#district_7_img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
+}
+
+#p8 {
+    margin-right: 3%;
+}
+
+#district_8_img {
+    margin-right: 5%;
+    width: 10%;
+}
+
+#district_9_img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
+}
+
+#p10 {
+    margin-right: 3%;
+}
+
+#district_10_img {
+    margin-right: 5%;
+    width: 10%;
+}
+
+#district_11_img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
+}
+
+#p12 {
+    margin-right: 3%;
+}
+
+#district_12_img {
+    margin-right: 5%;
+    width: 10%;
+}
+
+#district_13_img {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 10%;
 }
