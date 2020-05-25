@@ -6,7 +6,7 @@ var year = document.getElementById("year");
 
 function fbvalidator() {
     if (document.getElementById("iknow_1").checked === false) {
-        document.getElementById("fbvalidation").innerHTML = "Please accept this to continue. <br><br>";
+        document.getElementById("fbvalidation").innerHTML = "Please accept this to continue. <br>";
         document.getElementById("fb").removeAttribute("href");
     } else {
         document.getElementById("fbvalidation").innerHTML = "";
