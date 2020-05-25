@@ -11,8 +11,10 @@ body {
 }
 
 hr {
-    border-top: 1px;
-    color: rgb(158, 31, 31);
+    height: 1px; 
+    border: none; 
+    background: rgb(158, 31, 31); 
+    width: 100%;
 }
 
 #navigation {
