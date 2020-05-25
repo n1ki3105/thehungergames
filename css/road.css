@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 /*font-family: 'Audiowide', cursive;*/
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-color: #09080c;
 }
